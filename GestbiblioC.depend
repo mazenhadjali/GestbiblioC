@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1668768269 source:c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\main.c
+1668773677 source:c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\main.c
 	<stdio.h>
 	<stdlib.h>
 	"document.h"
@@ -7,7 +7,7 @@
 
 1668679793 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\datastruct.h
 
-1668692412 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\document.h
+1668773662 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\document.h
 
 1668768213 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\data.h
 	"document.h"
