@@ -57,4 +57,10 @@ typedef struct maglist maglist;
 
 // ***********************************
 
+doclist     * docs;
+maglist     * mags;
+artlist     * arts;
+booklist    * books;
+
+
 #endif // DATA_H_INCLUDED

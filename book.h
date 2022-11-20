@@ -3,11 +3,13 @@
 
 
 typedef struct book {
+
     char * ucode;
     char * auther;
     char * editor;
     int * jour;
     int * month;
+    int * year;
 
 }book;
 

@@ -12,13 +12,5 @@ typedef struct document {
 
 }document;
 
-document *  createDocument(); // create and generate new dpcument
-void updateDocument (document * doc);
-void removeDocment(document * doc);
-document * getDocumentBy_ucode;
-
-
-
-
 
 #endif // DOCUMENT_H_INCLUDED

@@ -6,7 +6,6 @@
 typedef struct magazine{
     char * ucode;
     int * freq;
-
 }magazine;
 
 #endif // MAGAZINE_H_INCLUDED

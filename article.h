@@ -7,7 +7,7 @@ typedef struct article {
     char * auther;
     int * jour;
     int * month;
-
+    int * year;
 }article;
 
 

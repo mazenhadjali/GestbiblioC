@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "functions.c"
+#include "init.c"
+
 // importation des structures des données
 #include "document.h"
 #include "book.h"
@@ -15,26 +18,51 @@
 #include "book.c"
 #include "magazine.c"
 
+int main(){
+    int * choice;
+    choice=(int*)malloc(sizeof(int));
+    startup();
 
-int main()
-{
 
-    doclist     * docs;
-    maglist     * mags;
-    artlist     * arts;
-    booklist    * books;
 
-    printf("%x\n",docs);
-    printf("%d\n",books);
-    printf("%x\n",mags);
-    printf("%x\n",arts);
 
-    document * a;
 
-    updateDocument(a);
-
+    while(1){
+        system("CLS");
+        printf("\n\t\tGestBiblioC");
+        printf("\n\n\t");
+        printf("please select one operation :");
+        printf("\n\t 1- Add Book");
+        printf("\n\t 2- Add Magazine");
+        printf("\n\t 3- add Article");
+        printf("\n ");
+        printf("\n\t 0 Exit");
+        printf("\n\n\t Selected operation ::  ");
+        scanf("%d",choice);
+        execute(choice);
+    }
 
     return 0;
-
 }
 
+void execute( int * cmd){
+    switch (*cmd){
+        case 0:
+            printf("end Of the program");
+            exit(1);
+        case 1:
+            addBook();
+          break;
+
+        case 2:
+            addMagazine();
+          break;
+
+        case 3:
+            addArticle();
+          break;
+
+        default:
+            printf("please select valid operation ");
+    }
+}

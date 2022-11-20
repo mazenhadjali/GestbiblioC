@@ -1,23 +1,65 @@
 # depslib dependency file v1.0
-1668773677 source:c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\main.c
+1668976647 source:c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\main.c
 	<stdio.h>
 	<stdlib.h>
+	"functions.c"
+	"init.c"
 	"document.h"
+	"book.h"
+	"magazine.h"
+	"article.h"
 	"data.h"
+	"document.c"
+	"article.c"
+	"book.c"
+	"magazine.c"
 
 1668679793 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\datastruct.h
 
-1668773662 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\document.h
+1668796974 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\document.h
 
-1668768213 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\data.h
+1668876347 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\data.h
 	"document.h"
 	"book.h"
 	"article.h"
 	"magazine.h"
 
-1668690503 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\book.h
+1668933137 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\book.h
 
-1668690649 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\article.h
+1668888098 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\article.h
 
-1668690577 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\magazine.h
+1668945906 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\magazine.h
+
+1668888115 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\document.c
+	"document.h"
+	<stdlib.h>
+
+1668944866 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\article.c
+	"data.h"
+	"article.h"
+
+1668944874 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\book.c
+
+1668945153 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\magazine.c
+	"magazine.h"
+	"data.h"
+
+1668977072 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\init.c
+	<windows.h>
+	"data.h"
+	<unistd.h>
+	"config.h"
+	<stdbool.h>
+	<dirent.h>
+	<stdio.h>
+
+1668946673 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\functions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"data.h"
+	"document.h"
+
+1668958560 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\config.h
 
