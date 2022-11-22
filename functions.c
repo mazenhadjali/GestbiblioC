@@ -5,6 +5,7 @@
 #include "data.h"
 #include "document.h"
 char* RStr(){
+    fflush(stdin);
     char *  str = malloc(128);
     gets(str);
     str = (char*) realloc(str,strlen(str));

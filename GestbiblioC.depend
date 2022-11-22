@@ -1,9 +1,10 @@
 # depslib dependency file v1.0
-1668976647 source:c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\main.c
+1669025251 source:c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\main.c
 	<stdio.h>
 	<stdlib.h>
 	"functions.c"
 	"init.c"
+	"export.c"
 	"document.h"
 	"book.h"
 	"magazine.h"
@@ -44,7 +45,7 @@
 	"magazine.h"
 	"data.h"
 
-1668977072 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\init.c
+1669017783 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\init.c
 	<windows.h>
 	"data.h"
 	<unistd.h>
@@ -53,7 +54,7 @@
 	<dirent.h>
 	<stdio.h>
 
-1668946673 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\functions.c
+1669021004 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\functions.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -62,4 +63,13 @@
 	"document.h"
 
 1668958560 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\config.h
+
+1669033666 c:\users\hadja\documents\epi\prog c et algo\gestbiblioc\export.c
+	<windows.h>
+	"data.h"
+	<unistd.h>
+	"config.h"
+	<stdbool.h>
+	<dirent.h>
+	<stdio.h>
 

@@ -58,6 +58,10 @@
 		<Unit filename="document.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="export.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="functions.c">
 			<Option compilerVar="CC" />
 			<Option target="&lt;{~None~}&gt;" />

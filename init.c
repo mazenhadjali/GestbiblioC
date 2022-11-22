@@ -30,14 +30,12 @@ void startup(){
     getcwd(path, 256);
     realloc(path,strlen(path));
 
-
-    char* booksdir  =   "booksdir"  ;
-    char* magsdir   =   "magsdir"   ;
-    char* artsdir   =   "artsdir"   ;
-    char* docsdir   =   "docsdir"   ;
-
     mkdir("data");
-    chdir("./data");
+
+    char* booksdir  =   "./data/booksdir"  ;
+    char* magsdir   =   "./data/magsdir"   ;
+    char* artsdir   =   "./data/artsdir"   ;
+    char* docsdir   =   "./data/docsdir"   ;
 
     mkdir(booksdir);
     mkdir(magsdir);

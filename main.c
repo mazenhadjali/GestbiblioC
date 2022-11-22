@@ -3,6 +3,7 @@
 
 #include "functions.c"
 #include "init.c"
+#include "export.c"
 
 // importation des structures des données
 #include "document.h"
@@ -27,6 +28,8 @@ int main(){
 
 
 
+
+
     while(1){
         system("CLS");
         printf("\n\t\tGestBiblioC");
@@ -42,13 +45,15 @@ int main(){
         execute(choice);
     }
 
+
+
     return 0;
 }
 
 void execute( int * cmd){
     switch (*cmd){
         case 0:
-            printf("end Of the program");
+            exportdocs();
             exit(1);
         case 1:
             addBook();
